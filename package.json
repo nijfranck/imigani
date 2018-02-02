@@ -1,0 +1,22 @@
+{
+  "name": "imigani",
+  "version": "1.0.0",
+  "description": "twitter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nijfranck/imigani.git"
+  },
+  "author": "Franck Nijimbere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nijfranck/imigani/issues"
+  },
+  "homepage": "https://github.com/nijfranck/imigani#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
