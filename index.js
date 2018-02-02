@@ -1,12 +1,18 @@
 var twitter = require('twitter');
 var fs = require('fs');
-var config = require('./config.js');
+
 var imigani = require('./imigani.js');
 
+
+
+var config = {
+	consumer_key: process.env.CKEY,
+	consumer_secret: process.env.CSECRET,
+	access_token_key: process.env.TKEY,
+	access_token_secret: process.env.TSECRET,
+}
+
 var t = new twitter(config);
-
-
-
 
 var d = new Date();
 var day = d.getDate() - 2;
