@@ -9,7 +9,7 @@ var config = {
 var t = new twitter(config);
 
 var d = new Date();
-var day = d.getDate() - 2;
+var day = d.getDate() - 3;
 var umuganiDaily = imigani.imigani[day];
 
 #console.log(umuganiDaily); 
