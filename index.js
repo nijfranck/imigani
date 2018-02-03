@@ -12,7 +12,7 @@ var d = new Date();
 var day = d.getDate() - 3;
 var umuganiDaily = imigani.imigani[day];
 
-#console.log(umuganiDaily); 
+//console.log(umuganiDaily); 
 
 var tweetOut = umuganiDaily + " #imigani #kirundi #burundi";
 
