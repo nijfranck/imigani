@@ -1,2 +1,4 @@
 # imigani
-twitter bot
+twitter bot: posts Burundian proverbs at the Twitter handle @nijfranck
+
+
